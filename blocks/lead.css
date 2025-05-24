@@ -28,3 +28,34 @@
     width: 100%;
   }
 }
+
+@media screen and (min-width: 321px) and (max-width: 768px) {
+  .lead {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    text-align: center;
+    margin: 0 0 90px;
+  }
+
+  .lead__title {
+    font-weight: 900;
+    font-size: 75px;
+    line-height: 1.1;
+    width: 85%;
+    margin: 0;
+  }
+
+  .lead__subtitle {
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 1.2;
+    width: 97%;
+    margin: 25px 0 30px;
+  }
+
+  .lead__img {
+    width: 100%;
+  }
+}
