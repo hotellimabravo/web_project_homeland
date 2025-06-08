@@ -10,7 +10,7 @@
     row-gap: 48px;
   }
 
-  .place__title {
+  .place__grid-title {
     max-width: 460px;
     width: 100%;
     font-weight: 900;
@@ -19,7 +19,7 @@
     margin: 0;
   }
 
-  .place__website {
+  .place__grid-website {
     max-width: 456px;
     grid-area: 1/2;
     align-content: end;
@@ -28,7 +28,7 @@
     width: 100%;
   }
 
-  .place__website-heading {
+  .place__grid-website-heading {
     max-width: 85px;
     width: 100%;
     margin: 0 0 8px;
@@ -38,32 +38,32 @@
     text-transform: uppercase;
   }
 
-  .place__website-artist {
+  .place__grid-website-artist {
     margin: 0;
     font-size: 18px;
     line-height: 22px;
   }
 
-  .place__website-artist span {
+  .place__grid-website-artist span {
     display: block;
   }
 
-  .place__paragraph {
+  .place__grid-paragraph {
     grid-area: 2/2/4/2;
     margin: 0;
   }
 
-  .place__paragraph-text {
+  .place__grid-paragraph-text {
     width: 100%;
     font-size: 18px;
     line-height: 163%;
   }
 
-  .place__paragraph-text:first-of-type {
+  .place__grid-paragraph-text:first-of-type {
     margin-bottom: 25px;
   }
 
-  .place__image {
+  .place__grid-image {
     height: 460px;
     width: 100%;
     grid-column: 1;
@@ -72,7 +72,7 @@
     box-shadow: 10px 10px 25px #000;
   }
 
-  .place__nft-button {
+  .place__grid-nft-button {
     width: 75%;
     cursor: pointer;
     margin: 0;
@@ -92,7 +92,7 @@
     color: inherit;
   }
 
-  .place__nft-button:hover {
+  .place__grid-nft-button:hover {
     background: linear-gradient(
       90deg,
       rgba(2, 120, 254, 0.25) 0%,
@@ -112,7 +112,7 @@
     row-gap: 48px;
   }
 
-  .place__title {
+  .place__grid-title {
     max-width: 340px;
     width: 100%;
     font-weight: 900;
@@ -121,7 +121,7 @@
     margin: 0;
   }
 
-  .place__website {
+  .place__grid-website {
     max-width: 456px;
     grid-area: 1/2;
     align-content: end;
@@ -130,7 +130,7 @@
     width: 100%;
   }
 
-  .place__website-heading {
+  .place__grid-website-heading {
     max-width: 85px;
     width: 100%;
     margin: 0 0 8px;
@@ -140,32 +140,32 @@
     text-transform: uppercase;
   }
 
-  .place__website-artist {
+  .place__grid-website-artist {
     margin: 0;
     font-size: 18px;
     line-height: 22px;
   }
 
-  .place__website-artist span {
+  .place__grid-website-artist span {
     display: block;
   }
 
-  .place__paragraph {
+  .place__grid-paragraph {
     grid-area: 2/2/4/2;
     margin: 0;
   }
 
-  .place__paragraph-text {
+  .place__grid-paragraph-text {
     width: 100%;
     font-size: 16px;
     line-height: 163%;
   }
 
-  .place__paragraph-text:first-of-type {
+  .place__grid-paragraph-text:first-of-type {
     margin-bottom: 25px;
   }
 
-  .place__image {
+  .place__grid-image {
     height: 340px;
     width: 100%;
     grid-column: 1;
@@ -174,7 +174,7 @@
     box-shadow: 10px 10px 25px 0px #00000080;
   }
 
-  .place__nft-button {
+  .place__grid-nft-button {
     width: 100%;
     cursor: pointer;
     margin: 0;
@@ -194,7 +194,7 @@
     color: inherit;
   }
 
-  .place__nft-button:hover {
+  .place__grid-nft-button:hover {
     background: linear-gradient(
       90deg,
       rgba(2, 120, 254, 0.25) 0%,
@@ -211,7 +211,7 @@
     row-gap: 30px;
   }
 
-  .place__title {
+  .place__grid-title {
     max-width: 288px;
     width: 100%;
     font-weight: 900;
@@ -220,7 +220,7 @@
     margin: 0 16px;
   }
 
-  .place__website {
+  .place__grid-website {
     max-width: 288px;
     align-content: end;
     padding: 0;
@@ -228,7 +228,7 @@
     width: 100%;
   }
 
-  .place__website-heading {
+  .place__grid-website-heading {
     max-width: 288px;
     width: 100%;
     font-size: 12px;
@@ -237,13 +237,13 @@
     text-transform: uppercase;
   }
 
-  .place__image {
+  .place__grid-image {
     height: 320px;
     width: 100%;
     object-fit: fit;
   }
 
-  .place__paragraph-text {
+  .place__grid-paragraph-text {
     max-width: 288px;
     width: 100%;
     font-size: 16px;
@@ -251,11 +251,11 @@
     margin: 0 16px;
   }
 
-  .place__paragraph-text:first-of-type {
+  .place__grid-paragraph-text:first-of-type {
     margin-bottom: 25px;
   }
 
-  .place__nft-button {
+  .place__grid-nft-button {
     width: 90%;
     cursor: pointer;
     margin: 0 16px;
@@ -274,7 +274,7 @@
     color: inherit;
   }
 
-  .place__nft-button:hover {
+  .place__grid-nft-button:hover {
     background: linear-gradient(
       90deg,
       rgba(2, 120, 254, 0.25) 0%,
