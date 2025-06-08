@@ -99,12 +99,6 @@
       rgba(0, 58, 123, 0.25) 99.98%
     );
   }
-
-  .place__nft-button-link {
-    margin: 0;
-    text-decoration: none;
-    background: none;
-  }
 }
 
 @media screen and (min-width: 321px) and (max-width: 768px) {
@@ -207,12 +201,6 @@
       rgba(0, 58, 123, 0.25) 99.98%
     );
   }
-  .place__nft-button-link {
-    margin: 0;
-    text-decoration: none;
-    background: none;
-    padding: 0;
-  }
 }
 
 @media screen and (max-width: 320px) {
@@ -292,11 +280,5 @@
       rgba(2, 120, 254, 0.25) 0%,
       rgba(0, 58, 123, 0.25) 99.98%
     );
-  }
-  .place__nft-button-link {
-    margin: 0;
-    text-decoration: none;
-    background: none;
-    padding: 0;
   }
 }
