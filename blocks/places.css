@@ -210,3 +210,87 @@
     padding: 0;
   }
 }
+
+@media screen and (max-width: 320px) {
+  .place__grid {
+    max-width: 320px;
+    display: grid;
+    margin-bottom: 72px;
+    row-gap: 30px;
+  }
+
+  .place__title {
+    max-width: 288px;
+    width: 100%;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 35px;
+    margin: 0 16px;
+  }
+
+  .place__website {
+    max-width: 288px;
+    align-content: end;
+    padding: 0;
+    margin: 0 16px;
+    width: 100%;
+  }
+
+  .place__website-heading {
+    max-width: 288px;
+    width: 100%;
+    font-size: 12px;
+    line-height: 100%;
+    color: #aaaaaa;
+    text-transform: uppercase;
+  }
+
+  .place__image {
+    height: 320px;
+    width: 100%;
+    object-fit: fit;
+  }
+
+  .place__paragraph-text {
+    max-width: 288px;
+    width: 100%;
+    font-size: 16px;
+    line-height: 163%;
+    margin: 0 16px;
+  }
+
+  .place__paragraph-text:first-of-type {
+    margin-bottom: 25px;
+  }
+
+  .place__nft-button {
+    width: 90%;
+    cursor: pointer;
+    margin: 0 16px;
+    padding: 13px 20px;
+    height: 48px;
+    background: linear-gradient(90deg, #0278fe 0%, #003a7b 99.98%);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.25);
+    transition: opacity 0.3s ease;
+    white-space: nowrap;
+    border: 0;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 100%;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .place__nft-button:hover {
+    background: linear-gradient(
+      90deg,
+      rgba(2, 120, 254, 0.25) 0%,
+      rgba(0, 58, 123, 0.25) 99.98%
+    );
+  }
+  .place__nft-button-link {
+    margin: 0;
+    padding: 0;
+  }
+}
