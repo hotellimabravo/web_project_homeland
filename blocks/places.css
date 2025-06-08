@@ -102,6 +102,8 @@
 
   .place__nft-button-link {
     margin: 0;
+    text-decoration: none;
+    background: none;
   }
 }
 
@@ -207,6 +209,8 @@
   }
   .place__nft-button-link {
     margin: 0;
+    text-decoration: none;
+    background: none;
     padding: 0;
   }
 }
@@ -291,6 +295,8 @@
   }
   .place__nft-button-link {
     margin: 0;
+    text-decoration: none;
+    background: none;
     padding: 0;
   }
 }
